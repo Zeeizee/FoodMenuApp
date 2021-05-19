@@ -1,0 +1,26 @@
+Q#1
+What is DOM?
+DOM stands for Document object model. It specifies some standards for accessing documents.
+ It allows programmers to access document elements dynamically and apply desired updates and styles to them.
+
+Q#2 
+What is an Event?
+ In programming, an event is an action that occurs as a result of the user or another source, such as a mouse click
+JavaScript interactions with HTML are handled through events that occur when the user or the browser manipulates a page.
+When the page loads, it is called an event. When the user clicks a button, that clicks to is an event. 
+
+Q#3
+What is an Event Listener?
+An event listener is a procedure or function in a computer program that waits for an event to occur.
+ Examples of an event are the user clicking or moving the mouse, pressing a key on the keyboard, disk I/O, 
+ network activity, or an internal timer or interrupt. The listener is programmed to react to an input or signal 
+ by calling the event's handler.
+
+Q#4
+Why would we convert a NodeList into an Array?
+These data structures are referred to as Array-like  because they appear as an array.
+
+Q#5
+What are components?
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work 
+in isolation and return HTML via a render() function.Components come in two types, Class components and Function components
