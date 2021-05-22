@@ -103,7 +103,7 @@ let items = [
 let foodsection = document.querySelector('.food-section')
 const fooditems = items.map(e => {
 
-    const foodlist = `<div class="col-md-5 col-sm-5 mx-2 ${e.type} my-2 food-container">
+    const foodlist = `<div class="col-md-5 col-sm-9 mx-2 ${e.type} my-2 food-container">
                 <!-- image -->
                 <div class="food food-image">
 
