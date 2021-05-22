@@ -1,27 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
 *{
 margin: 0px;
 padding: 0px;
 
 }
-.menu-heading
-{
 
 
-}
 html{
     scroll-behavior: smooth;
 }
 .menu-heading::after{
     content: '';
     display: block;
-    width: 60px;
+    width: 70px;
     height: 3px;
     background-color: var(--clr-gold);
-    margin: auto;
+    margin: 10px auto;
 
 }
 :root{
     --clr-gold: #c59d5f;
+}
+.main-head{
+    padding: 20px;
+        box-shadow: rgba(93, 83, 50, 0.25) 0px 30px 60px -12px inset, rgba(211, 182, 104, 0.3) 0px 18px 36px -18px inset;
+
+}
+.main-head h2{
+    color: white;
 }
 .container{
     max-width: 1000px;
@@ -29,16 +35,19 @@ html{
 }
 
 body{
-    background-color: rgb(235, 234, 230);
-
-   
+    background-color: #2f3640;  
+    font-family: 'Exo', sans-serif;
+    
+}ul{
+    margin-top: 50px;
 }
+
 ul li{
     list-style-type: none;
     margin: 0px 10px;
-    padding: 3px 10px;
-    border-radius: 8px;
-    border:1px solid var(--clr-gold);
+    padding: 5px 15px;
+   
+    border:1px dashed var(--clr-gold);
     font-weight: 600;
     color:var(--clr-gold);
     font-size: 0.8rem;
@@ -53,10 +62,10 @@ ul li:hover{
 /* food section */
 .food-container{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     padding: 15px;
       font-size: 0.8rem;
+      border: 1px dashed var(--clr-gold);
     
 
 }
@@ -68,9 +77,8 @@ ul li:hover{
 .food-container .food-image
 {
     width:500px ;
-      height: 110px;
-      display: block;
-  
+      height: 120px;
+      display: block;  
   border: 3px solid var(--clr-gold);
   border-radius: 5px;
 
@@ -93,18 +101,17 @@ height:110px ;
 
   .food-container .details .pricebox
   {
-      padding: 0px 3px;
+      padding: 0px 3px 3px 3px;
       display: flex;
       justify-content: space-between;
-      align-items: center;
-     
-      font-weight: 600;
-color: var(--clr-gold);
-      border-bottom: 1px dotted black;
+      align-items: center;     
+      font-weight: 600;color: white;
+      border-bottom: 1px dashed var(--clr-gold);
 
   }
+ 
   .food-container .details .des-box{
-      margin-top: 10px;
+      margin-top: 5px;
       padding: 5px;
       overflow: hidden;
       color: gray;

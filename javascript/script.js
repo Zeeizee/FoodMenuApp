@@ -5,7 +5,7 @@ let items = [
         foodimage: './media/biryani.jpg',
         price: "$20",
         type: "l",
-        Description: "Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat, and sometimes, in addition, eggs and/or vegetables."
+        Description: "Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat."
     },
     // banashake
     {
@@ -71,6 +71,15 @@ let items = [
         type: "d",
         Description: "Pizza is a savory dish of Italian origin consisting of a usually round,wheat-based dough topped with tomatoes, cheese, and often various other ingredients"
     },
+    {
+        foodname: "Cheese Pratha",
+        foodimage: './media/chesepratha.jpg',
+        price: "$5",
+        type: "b",
+
+        Description: 'Cheese paratha is a delicious whole wheat flatbread stuffed with a spiced cheese stuffing. These cheese flatbreads make for a wholesome breakfast or brunch.'
+
+    },
     //tika
     {
         foodname: "Tikka Kabab",
@@ -94,7 +103,7 @@ let items = [
 let foodsection = document.querySelector('.food-section')
 const fooditems = items.map(e => {
 
-    const foodlist = `<div class="col-md-6 ${e.type}  food-container">
+    const foodlist = `<div class="col-md-5 mx-2 ${e.type} my-2 food-container">
                 <!-- image -->
                 <div class="food food-image">
 
@@ -103,7 +112,7 @@ const fooditems = items.map(e => {
                 </div>
                 <!-- description -->
                 <div class="food details">
-                    <div class="pricebox">
+                    <div class="pricebox ">
                         <span>${e.foodname}</span>
                         <span>${e.price}</span>
                     </div>
