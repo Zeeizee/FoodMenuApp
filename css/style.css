@@ -40,6 +40,7 @@ body{
     
 }ul{
     margin-top: 50px;
+   
 }
 
 ul li{
@@ -93,7 +94,7 @@ ul li:hover{
   .food-container .details{
 
 width: 750px;
-height:110px ;
+
 
     padding: 0px;
     margin: 0px;
@@ -115,9 +116,41 @@ height:110px ;
       padding: 5px;
       overflow: hidden;
       color: gray;
+     
 
    
   }
+@media screen and (max-width:470px) {
+
+
+ul li{
+    
+    margin: 0px 5px;
+    padding: 5px 10px;
+    font-weight: 600;   
+    font-size: 0.8rem;
+}
+.food-container .details .des-box{
+     font-size: 0.6rem;
+
+   
+  }
+
+   
+}
+@media screen and (max-width:370px) {
+
+
+ul li{
+    
+    margin: 0px 4px;
+    padding: 4px 8px;
+    font-weight: 500;   
+    font-size: 0.6rem;
+}
+
+   
+}
 
 
 
